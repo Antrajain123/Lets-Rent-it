@@ -1,0 +1,61 @@
+body{
+    margin-top:20px;
+    background: radial-gradient(circle,rgba(241,192,148,1)0%,rgba(221,122,48,1)99%);
+}
+.main{
+    padding:15px;
+    font-family: serif;
+
+}
+.topbar{
+    background-color: rgb(4, 55,68);
+    overflow:hidden;
+}
+.topbar a{
+    float:right;
+    color:whitesmoke;
+    text-align: center;
+    padding: 20px 26px;
+    text-decoration: none;
+    font-size: 26px;
+}
+.sidebar{
+    background-color:rgb(4, 55, 68);
+    color: white;
+    height: 530px;
+    width:350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.sidebar a{
+    margin-left: 10px;
+    display: block;
+    color:white;
+    padding-bottom:10px ;
+    font-size: 30px;
+    text-decoration: none;
+    
+
+}
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+
+    
+}
+.content{
+    background-color: whitesmoke;
+    width:923px;
+    height: 500px;
+    padding:15px;
+}
+
+.combo{
+    display: flex;
+    flex-wrap: wrap;
+}
