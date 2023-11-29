@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="infoemation.css">
+</head>
+<body>
+    <div class="info">
+        <div class="upper">
+            <div class="img" style="background-image: url('kolar\ 1.jpg'); height: 970px; width: 1200px; background-size: cover; margin-right: 50px;"></div>
+            <div class="content">
+                <h1>PINECREST COTTAGE</h1>
+                <p>Owned by Mr Reyansh Raichand</p>
+                <div class="images">
+                    <div class="bedroom" style="background-image: url('pcback.jpg'); height: 400px; width: 350px; background-size: cover; margin: 5px;"></div>
+                    <div class="kitchen" style="background-image: url('pcbalcony.jpg'); height: 400px; width: 300px; background-size: cover; margin: 5px;"></div>
+                    <div class="living" style="background-image: url('pcbedroom.jpg'); height: 400px; width: 300px; background-size: cover; margin: 5px;"></div>
+                    <div class="living" style="background-image: url('pckitchen.jpg'); height: 400px; width: 350px; background-size: cover; margin: 5px;"></div>
+                </div>
+                
+                
+
+            </div>
+        </div>
+        <div class="keyfeatures">
+            <h3>Key Features</h3>
+            <ul>
+                <li>
+                <p>4 Bedrooms and 3 Bathrooms</p>
+            </li>
+            <li>
+                <p>Spacious Living room</p>
+            </li>
+            <li>
+                <p>Large Kitchen and Dining Area and large Balcony</p>
+            </li>
+            <li>
+                <p>Outdoor Space, Scenic views and lakeside view</p>
+            </li>
+            <li>
+            <p>Parking Space and Garage</p>
+            </li>
+            <li><p>Amenities like fireplace, BBQ area, and pool</p></li>
+            <li><p>No pets allowed</p></li>
+            <li><p>Charges based on a day Booking</p></li>
+            </ul>
+        </div>
+        <p class="Foot">Expirence Morden Comforts and Nature,s Glory in Pinecreast Cottage near Taj Hotel, Chunabhatti, Kolar, Bhopal.</p>
+        <h3>Contact Us</h3>
+        <p>Phone no:9457214797(Reyansh Raichand)</p>
+        <p>Phone no:6247042588(Maneger--Vihan Malhotra)</p>
+        <p>Email:www.reyanshr@gmail.com</p>
+    </div>
+    <footer>
+        <div class="msg">
+        <div class="rent">
+            <button type="submit" class="btn" onclick="openpopup()">Rent</button>
+            <div class="popup" id="popup">
+                <img src="tick.png">
+                <h3>Thank You</h3>
+                <p>Your booking for visit had been confirmed .</p>
+                <P>Further information will be shared to you by email.</P>
+                <button type="button" onclick="closepopup()">OK</button>
+            </div>
+        </div>
+
+        </div>
+    </footer>
+    <script>
+        let popup = document.getElementById("popup");
+        function openpopup(){
+            popup.classList.add("open-popup");
+        }
+        function closepopup(){
+            popup.classList.remove("open-popup");
+        }
+    </script>
+</body>
+</html>

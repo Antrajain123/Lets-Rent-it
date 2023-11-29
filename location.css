@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: border-box;
+}
+body{
+    background: radial-gradient(circle, rgba(241,192,148,1) 0%, rgba(221,122,48,1) 99%);
+}
+.heading{
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    color: rgb(89, 33, 14);
+}
+.areas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box{
+    height: 400px;
+    width: 21%;
+    margin-top: 15px ;
+    background-color: white;
+    padding: 10px;
+    margin: 30px;
+    color: rgb(158,24,91);
+
+}
+.box a{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(158,24,91);
+    font-size: 20px;
+    font-weight: 600;
+}
+.box a:hover{
+    color: white;
+        margin: 50;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        border: border-box;
+}
+
+.box:hover{
+    background-color:  rgb(4, 55, 68);
+    color: white;
+}
+.singleimg1{
+    background-image: url("indrapuri.jpg");
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    background-size: cover;
+}
+.singleimg2{
+    background-image: url("Ashoka\ Garden.jpg");
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    background-size: cover;
+}
+.singleimg3{
+    background-image: url("mpnagar.jpg");
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    background-size: cover;
+}
+.singleimg4{
+    background-image: url("kolar.jpg");
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    background-size: cover;
+}
+.singleimg5{
+    background-image: url("miel.jpg");
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    background-size: cover;
+}
+.singleimg6{
+    background-image: url("patelnagar.jpg");
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    background-size: cover;
+}

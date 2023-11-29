@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style27.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Sign Up</h1>
+        <form action="connect.php" method="POST">
+            <div class="form-group">
+                <input type="text" id="first_name" name="first_name" required>
+                <span></span>
+                <label for="first_name">Name</label>
+            </div>
+            
+            <div class="form-group">
+                <input type="text" id="Address" name="address" required>
+                <span></span>
+                <label for="Address">Address</lable>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" name="email" required>
+                <span></span>
+                <label for="email">Email</label>
+            </div>
+            <div class="form-group">
+                <input type="tel" id="phone" name="phone" required>
+                <span></span>
+                <label for="phone">Phone Number</label>
+            </div>
+            <div class="form-group">
+                <input class="pass" type="password" id="password" name="password" required>
+                <span></span>
+                <label for="password">Password</label>
+            </div>
+            <div class="form-group">
+                <input class="conpass" type="password" id="confirm_password" name="confirm_password" required>
+                <span></span>
+                <label for="confirm_password">Confirm Password</label>
+            </div>
+            <div class="submit">
+                <button class="button" type="submit"><a href="choselocationpage.html">Submit</a></button>
+            </div>
+        </form>
+    </div>
+    <script>
+        document.querySelector('.button').onclick  = function(){
+            var password = document.querySelector('.pass').value,
+            confirm_password = document.querySelector('.conpass').value;
+            if(password==""){
+                alert("Fields cannot be empty");
+                return false;
+            }
+            else if(password!=confirm_password){
+                alert("Password and Confirm Password should be same");
+                return false;
+            }
+            return true;
+        }
+    </script>
+</body>
+</html>

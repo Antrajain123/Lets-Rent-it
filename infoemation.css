@@ -1,0 +1,109 @@
+*{
+    margin: 50;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: border-box;
+}
+body{
+background: radial-gradient(circle, rgba(241,192,148,1) 0%, rgba(221,122,48,1) 99%);
+}
+h1{
+    color:  rgb(158,24,91);
+    font-size: 50px;
+    text-decoration: dashed;
+    margin-bottom: 5px;
+}
+p{
+    color:  rgb(4, 55, 68);
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.upper{
+    display: flex;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+}
+h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:  rgb(158,24,91);
+    font-size: 30px;
+    text-decoration: underline;
+}
+h6{
+    color:  rgb(158,24,91);
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.Foot{
+    color:  rgb(4, 55, 68) ;
+    font-size: 30px;
+    font-weight: 600;
+}
+.btn{
+    height: 50px;
+    width: 430px;
+   background-color: rgb(158,24,91);
+    font-size: 20px;
+    margin-right: 30px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    text-decoration: none;
+    color: white;
+}
+.btn:hover{
+    background-color:  rgb(4, 55, 68);
+    color: white;
+}
+.popup{
+    width: 600px;
+    background: whitesmoke;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    border-radius: 6px;
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+.open-popup{
+    visibility: visible;
+    top: 130%;
+    transform: translate(-50%,-50%) scale(1);
+}
+.popup img{
+    width: 200px;
+    margin-top: -50px;
+    border-radius: 130%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.popup button{
+    height: 50px;
+    width: 100%;
+   background-color: rgb(158,24,91);
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border: 0;
+    outline: none;
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+.popup button:hover{
+    background-color:  rgb(4, 55, 68);
+    color: white;
+}
